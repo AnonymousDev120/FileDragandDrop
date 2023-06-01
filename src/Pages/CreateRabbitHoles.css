@@ -1,0 +1,109 @@
+.createRh__container {
+  width: 100vw;
+  display: flex;
+  padding: 0 5%;
+}
+.createRh__container div {
+  border: 1px dashed;
+  flex: 1;
+  aspect-ratio: 1;
+  padding: 10px;
+}
+.createRh__FileUpload {
+  display: flex;
+  flex-direction: column;
+}
+.createRh__FileUpload form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.createRh__FileUpload form input {
+  height: 30px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background-color: white;
+  color: black;
+  padding-left: 10px;
+}
+.createRh__FileUpload form button {
+  height: 30px;
+  outline: none;
+  border: none;
+  width: 15%;
+  background-color: white;
+  border-radius: 0;
+  color: black;
+  padding: 0;
+}
+.createRh__FileUpload__dragBox {
+  width: 100%;
+  height: calc(100% - 70px);
+  border: 2px dotted white;
+}
+.createRh__Uploaded {
+  word-break: break-all;
+}
+.createRh__bookList {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.createRh__CreateNew input {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+.bookList__cont {
+  height: calc(100% - 60px);
+  width: 100%;
+}
+.createRh__createBookList {
+  height: calc(100% - 70px);
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.createRh__CreateNew button {
+  height: 30px;
+  padding: 0;
+  width: 90px;
+  background-color: skyblue;
+  color: white;
+}
+.createRh__createBookList h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 100%;
+  word-break: break-all;
+}
+.PaginationBtn {
+  width: 30px;
+  aspect-ratio: 1;
+  background-color: aqua;
+  padding: 0;
+  color: black;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.PaginationBtn.active {
+  background-color: white;
+}
+.createRh__CreateNew input {
+  color: black;
+  padding-left: 10px;
+}
+.deleteFromBookList {
+  background-color: white;
+  color: black;
+  padding: 0;
+  width: 30px;
+  aspect-ratio: 1;
+  margin-left: 10px;
+}
